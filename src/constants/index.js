@@ -24,9 +24,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  PostJourney,
+  shareme,
+  Videochat,
   threejs,
 } from "../assets";
 
@@ -198,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SocialQu",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based Social Media Picture Sharing App with CRUD operations and Google Authentication",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +215,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shareme,
+    source_code_link: "https://github.com/AnkitM18-tech/SocialQu",
+    live_demo: "https://sharemeankit.netlify.app",
   },
   {
-    name: "Job IT",
+    name: "PostJourney",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An A.I image generation app created using MERN stack and Open AI API which can generate creative images with the provided prompts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: PostJourney,
+    source_code_link:
+      "https://github.com/AnkitM18-tech/ai-image-generation-app",
+    live_demo: "https://ankit-ai-image-generation.netlify.app/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Video Chat",
+    description: "Video Chat app built using React JS , Node JS and WebRTC.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "webRTC",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "node",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Videochat,
+    source_code_link: "https://github.com/AnkitM18-tech/react-video-chat-app",
+    live_demo: "https://web-chat-ankit.netlify.app/",
   },
 ];
 
